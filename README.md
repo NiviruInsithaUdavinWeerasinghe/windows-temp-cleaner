@@ -129,4 +129,3 @@ Use it when changing the shortcut's icon to give the script a cleaner, more prof
 ## License
 
 This project is released under the MIT License.
-```
