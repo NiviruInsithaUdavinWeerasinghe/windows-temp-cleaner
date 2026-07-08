@@ -44,13 +44,13 @@ A lightweight Windows Batch script that helps free up disk space by removing tem
 3. Accept the Administrator prompt.
 4. Enter one of the following:
 
-```
+```text
 Y
 ```
 
 or
 
-```
+```text
 y
 ```
 
@@ -58,13 +58,13 @@ to begin cleaning.
 
 Enter:
 
-```
+```text
 N
 ```
 
 or
 
-```
+```text
 n
 ```
 
@@ -78,33 +78,27 @@ You can make the script behave like a normal Windows application.
 
 1. Right-click `Clean.bat`.
 2. Click **Create shortcut**.
-3. Move the shortcut to:
-
-```text
-C:\Users\<YourUsername>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
-```
-
-or simply open:
+3. Press **Win + R** to open the **Run** dialog.
+4. Paste the following and press **Enter**:
 
 ```text
 %AppData%\Microsoft\Windows\Start Menu\Programs
 ```
 
-and paste the shortcut there.
-
-4. Right-click the shortcut → **Properties**.
-5. Click **Change Icon...**
-6. Browse to the included `.ico` file and select it.
-7. Click **OK** → **Apply**.
-8. Open the Start Menu, search for **Windows Temp Cleaner**, then right-click it and choose **Pin to Start** or **Pin to Taskbar**.
+5. Paste the shortcut into the folder that opens.
+6. Right-click the shortcut and select **Properties**.
+7. Click **Change Icon...**
+8. Browse to the included `.ico` file and select it.
+9. Click **OK**, then **Apply**.
+10. Open the Start Menu, search for **Windows Temp Cleaner**, then right-click it and choose **Pin to Start** or **Pin to Taskbar**.
 
 ---
 
 ## Custom Icon
 
-A custom icon is included with this repository.
+A custom `.ico` file is included with this repository.
 
-After downloading the project, use the provided `.ico` file when changing the shortcut's icon to give it a cleaner, more professional appearance.
+Use it when changing the shortcut's icon to give the script a cleaner, more professional appearance.
 
 ---
 
@@ -113,7 +107,7 @@ After downloading the project, use the provided `.ico` file when changing the sh
 | Folder | Purpose |
 |---------|---------|
 | `C:\Windows\Temp` | Windows temporary files |
-| `%TEMP%` | Current user's temporary files |
+| `%TEMP%` | Current user's Local Temp folder |
 | `C:\Windows\Prefetch` | Windows Prefetch cache |
 
 ---
@@ -135,3 +129,4 @@ After downloading the project, use the provided `.ico` file when changing the sh
 ## License
 
 This project is released under the MIT License.
+```
